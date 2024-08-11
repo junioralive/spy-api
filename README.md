@@ -6,13 +6,14 @@ Welcome to the SPYCLI-API Status Dashboard repository. This repository serves as
 
 Below is the current status of the SPYCLI-API, indicating its availability:
 
-| Name        | Status   |
-| :---------- | :------- |
-| SPYCLI-API  | 🟢       |
+| Name        | Status   | Last Updated |
+| :---------- | :------- | :----------- |
+| SPYCLI-API  | 🟢 | 2024-08-11 12:36:09 |
 
 ### Note on Status Indicators
 
 - 🟢 **Green Dot**: Indicates that the API is currently active and fully operational.
+- 🔴 **Red Dot**: Indicates that the API is currently offline or experiencing issues.
 
 ## Repository Usage 🔍
 

@@ -20,6 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          pip install requests cryptography
 
       - name: Create Python script from secret
         run: |
@@ -32,10 +33,10 @@ jobs:
 
       - name: commit files
         run: |
-          git config --local user.email ${{ secrets.JUSER_EMAIL }}
+          git config --local user.email ${{ secrets.GIT_EMAIL }}
           git config --local user.name "junioralive"
           git add keys
-          git commit -m "updated api key"
+          git commit -m "updated api key" -a
           
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0

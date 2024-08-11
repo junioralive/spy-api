@@ -33,7 +33,7 @@ jobs:
 
       - name: commit files
         run: |
-          git config --local user.email ${{ secrets.GIT_EMAIL }}
+          git config --local user.email ${{ secrets.MY_GIT_EMAIL }}
           git config --local user.name "junioralive"
           git add keys
           git add README.md

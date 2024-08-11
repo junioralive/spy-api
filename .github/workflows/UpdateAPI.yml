@@ -36,7 +36,8 @@ jobs:
           git config --local user.email ${{ secrets.GIT_EMAIL }}
           git config --local user.name "junioralive"
           git add keys
-          git commit -m "updated api key" -a
+          git add README.md
+          git commit -m "Updated API Status" -a
           
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0

@@ -8,7 +8,7 @@ Below is the current status of the SPYCLI-API, indicating its availability:
 
 | Name        | Status   | Last Updated |
 | :---------- | :------- | :----------- |
-| SPYCLI-API  | 🔴 | 2025-01-16 18:28:25 |
+| SPYCLI-API  | 🔴 | 2025-01-16 19:15:58 |
 
 ### Note on Status Indicators
 

@@ -1,3 +1,5 @@
+  > # The end of SpyCli is here, but don’t cry—it was just practice for [Xyra](https://xyrastream.live/api), the real deal, to show us how it’s done.
+
 # SPYCLI-API Status Dashboard 📊
 
 Welcome to the SPYCLI-API Status Dashboard repository. This repository serves as a monitoring platform to provide real-time updates on the availability and operational status of the SPYCLI-API.
